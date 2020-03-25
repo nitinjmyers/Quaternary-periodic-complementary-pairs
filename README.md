@@ -9,4 +9,5 @@ If you use this program, please cite [1]. Note that our procedure can be used to
 
 
 [1] N. J. Myers, R. W. Heath Jr., "A quaternion-based approach to construct periodic complementary pairs," arxiv: arXiv:2003.10939v1 
+
 [2] S. Blake, “Perfect sequences and arrays over the unit quaternions,” arXiv preprint arXiv:1701.01154, 2016.
