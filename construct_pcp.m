@@ -1,3 +1,9 @@
+% This program is to construct periodic complementary pairs (PCPs) using perfect quaternion arrays (PQAs). 
+% If you use this code, please cite [1]
+% [1] N. J. Myers, R. W. Heath Jr., "A quaternion-based approach to construct periodic complementary pairs," 
+% arxiv: arXiv:2003.10939v1 
+% Note that our procedure can be used to transform any PQA to a PCP. The PQAs used in this code are from [2]. 
+% [2] S. Blake, “Perfect sequences and arrays over the unit quaternions,” arXiv preprint arXiv:1701.01154, 2016.
 clear all;
 clc;
 
@@ -33,8 +39,8 @@ for r=a
     end
 end
 
-Dhtild=Dh-Dv;
-Dvtild=Dh+Dv;
+Dhtild=Dh-Dv; % PCP 1
+Dvtild=Dh+Dv; % PCP 2
 
 figure()
 subplot(1,2,1)
